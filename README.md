@@ -64,6 +64,14 @@ print('RMSE = ',rmse)
 ```
 
 ## Output
+Initial Dataframe 
+![out](14.png)
+
+df.head()
+![out](15.png)
+
+df.tail()
+![out](16.png)
 
 ![output](3.png)
 
@@ -74,6 +82,7 @@ print('RMSE = ',rmse)
 
 ![out](11.png)
 
+The values of MSE , MAE and RMSE
 ![out](13.png)
 
 
