@@ -26,7 +26,6 @@ RegisterNumber:  212221230110
 import pandas as pd
 import numpy as np
 df=pd.read_csv('student_scores.csv')
-print(df)
 df.head()
 df.tail()
 X=df.iloc[:,:-1].values
@@ -64,17 +63,12 @@ print('RMSE = ',rmse)
 ```
 
 ## Output
-### Initial Dataframe
 
 
-![out](14.png)
-
-### df.head()
 
 
 ![out](15.png)
 
-### df.tail()
 
 
 
@@ -89,7 +83,6 @@ print('RMSE = ',rmse)
 
 ![out](11.png)
 
-### The values of MSE , MAE and RMSE
 
 
 ![out](13.png)
